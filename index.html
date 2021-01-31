@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">   
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/> 
+        <title>Flowers&Fruits Landing Page</title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/acdf6ff397.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header id="header" class="header">
+            <div class="nav-background-color"></div>
+            <div class="logo-container">
+                <img id="header-img" class="logo-img" src="images/icon.png" alt="A logo depicting fruits and flowers.">
+                <a class="logo-link" href="#">F&F</a> 
+                <button onclick="clickedIcon()" class="burger-rotated burger"><span class="fas fa-bars"></span></button> 
+            </div>
+              
+            <nav id="nav-bar" class="nav-bar">
+                <ul class="nav-list nav-list-burger">
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#product-video">Quality</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="product">
+            <div>
+                <img class="product-img" src="images/rose-header-img.jpg" alt="An image of a colourful rose.">
+                <div class="title-container">
+                    <div class="background-shade"></div>
+                    <h1 class="product-title">Flowers&Fruits</h1>
+                </div>
+            </div>
+
+            <aside class="left-header">
+                <h3 class="sub-header">Beautiful & fragrant flowers</h3>
+                <p class="product-description">Send the perfect gift by creating a custom bouquet of vibrant, high quality flowers!</p>
+            </aside>
+
+            <aside class="right-header">
+                <h3 class="sub-header">Fresh & juicy fruits</h3>
+                <p class="product-description">Browse through our wide selection of tasty fruits and create an amazing fruit basket to enjoy yourself or send as a gift.</p>
+            </aside>
+        </section>
+
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <span class="fas fa-leaf"></span>
+                </div>
+
+                <div class="details">
+                    <h3 class="title">Fresh and fragrant</h3>
+                    <p class="description">All of our products are farm grown and hand picked just before delivery. You are guaranteed to recieve only the freshest fruits and flowers we have available.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <span class="fas fa-truck"></span>
+                </div>
+
+                <div class="details">
+                    <h3 class="title">Fast shipping</h3>
+                    <p class="description">Our customers never have to worry about recieving spoiled or damaged product, because our shipping fast and secure. We offer custom delivery times so that you can decide exactly when you want your product to arrive. If you are not satisfied with your purchase, we offer free returns.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <span class="fas fa-star"></span>
+                </div>
+ 
+                <div class="details">
+                    <h3 class="title">Quality assurance</h3>
+                    <p class="description">Our fruits and flowers are carefully grown by our team of expert farmers. We make sure to thoroughly inspect every product so that only the best fruits and flowers are sent to our customers. Once ever fruit and flower has gone through our rigerous screening procees, it is plucked and packaged just minutes before shipping.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="product-video">     
+            <div class="background-shade no-shade"></div> 
+            <div class="background-shade shade-two"></div>    
+            <h3 class="video-title">All of our products are of the highest quality as seen in the video below!</h3>
+            <iframe id="video" class="video" width="720" height="480" src="https://youtube.com/embed/VfUmqjEdojA" frameborder="0" allowfullscreen></iframe>                  
+        </section>
+
+        <section id="pricing">
+            <div class="pricing-container border-line">
+                <h3 class="title pricing-text">Fruit basket</h3>
+                <img class="pricing-img" src="images/fruit.jpg" alt="A box filled with plums.">
+                <p class="description price">$24.99</h3>
+                <p class="description pricing-text">A tasty assortment of fruits of your choosing.</p>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="pricing-container border-line">
+                <h3 class="title pricing-text">Flower arrangement</h3>
+                <img class="pricing-img" src="images/flower.jpg" alt="A basket of flowers.">
+                <p class="description price">$89.99</h3>
+                <p class="description pricing-text">Create a custom bouquet of unique flowers.</p>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="pricing-container">
+                <h3 class="title pricing-text">Flowers & fruits combo</h3>
+                <img class="pricing-img" src="images/fruit-flower.jpg" alt="A basket of flowers and a box filled with plums.">
+                <p class="description price">$99.99</p>
+                <p class="description pricing-text">Get the best of both worlds by selecting a tasty assortment of fruits and a custom bouquet of unique flowers.</p>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+
+        <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="background-shade no-shade"></div> 
+            <div class="background-shade shade-two"></div> 
+            <div class="form-elements">
+                <h3 class="form-header">Subscribe and stay up to date on our limited time deals!</h3>
+                <input id="email" class="email" name="email" type="email" placeholder="Please Enter Your Email">            
+                <input id="submit" class="btn form-btn" type="submit" value="submit">
+            </div>
+        </form>      
+    </body>
+
+    <footer class="footer" >
+            <div>
+                <a class="return-top fas fa-arrow-circle-up" href="#top" title="Return to top"></a>
+            </div>
+            <p>Written and coded by <a class="link" href="https://www.freecodecamp.org/suhassunder" target="_blank">Suhas Sunder</a></p>            
+            <div>
+                <img class="github-img" src="images/github.png" alt="Github logo image">   
+                <p><a class="link" href="https://github.com/suhas-sunder/survey-form.git" target="_blank">View Source</a> on Github</p>
+            </div>
+            <script src="script.js"></script>
+    </footer>
+</html>
